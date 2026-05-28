@@ -1,0 +1,32 @@
+aid: cloudmersive-validate
+name: Cloudmersive Validate
+description: "Validate email addresses, phone numbers, VAT numbers and domain names"
+url: https://cloudmersive.com/validate-api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Email"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Email
+  - Public APIs
+apis:
+  - name: Cloudmersive Validate
+    description: "Validate email addresses, phone numbers, VAT numbers and domain names"
+    humanURL: https://cloudmersive.com/validate-api
+    baseURL: https://cloudmersive.com/validate-api
+    tags:
+      - Email
+    properties:
+      - type: Documentation
+        url: https://cloudmersive.com/validate-api
+common:
+  - type: Website
+    url: https://cloudmersive.com/validate-api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
