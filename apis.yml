@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://cloudmersive.com/validate-api
 common:
+  - type: DomainSecurity
+    url: security/cloudmersive-validate-domain-security.yml
   - type: Website
     url: https://cloudmersive.com/validate-api
   - type: PublicAPIsListing
