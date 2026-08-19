@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudmersi
 name: Cloudmersive Validate
 description: "Validate email addresses, phone numbers, VAT numbers and domain names"
 url: https://cloudmersive.com/validate-api
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
