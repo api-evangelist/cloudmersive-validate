@@ -23,35 +23,46 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudmersive-validate.png
 name: Cloudmersive Validate
-description: "Validate email addresses, phone numbers, VAT numbers and domain names"
+description: Validate email addresses, phone numbers, VAT numbers and domain names
 url: https://cloudmersive.com/validate-api
 specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
-x-category: "Email"
+x-category: Email
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Email
-  - Public APIs
+- Email
+- Public APIs
 apis:
-  - name: Cloudmersive Validate
-    description: "Validate email addresses, phone numbers, VAT numbers and domain names"
-    humanURL: https://cloudmersive.com/validate-api
-    baseURL: https://cloudmersive.com/validate-api
-    tags:
-      - Email
-    properties:
-      - type: Documentation
-        url: https://cloudmersive.com/validate-api
-common:
-  - type: DomainSecurity
-    url: security/cloudmersive-validate-domain-security.yml
-  - type: Website
+- name: Cloudmersive Validate
+  description: Validate email addresses, phone numbers, VAT numbers and domain names
+  humanURL: https://cloudmersive.com/validate-api
+  baseURL: https://cloudmersive.com/validate-api
+  tags:
+  - Email
+  properties:
+  - type: Documentation
     url: https://cloudmersive.com/validate-api
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+- name: Cloudmersive Validate
+  description: Validate international phone numbers
+  humanURL: https://cloudmersive.com/phone-number-validation-API
+  baseURL: https://cloudmersive.com/phone-number-validation-API
+  tags:
+  - Phone
+  properties:
+  - type: Documentation
+    url: https://cloudmersive.com/phone-number-validation-API
+common:
+- type: DomainSecurity
+  url: security/cloudmersive-validate-domain-security.yml
+- type: Website
+  url: https://cloudmersive.com/validate-api
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
+- type: Website
+  url: https://cloudmersive.com/phone-number-validation-API
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
